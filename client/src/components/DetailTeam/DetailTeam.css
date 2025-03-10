@@ -1,0 +1,47 @@
+.info-match {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-team {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .players-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    flex: 1;
+    background-color: #101318;
+    gap: 4px;
+    padding: 8px 24px;
+    margin: 0 5px 0 5px;
+  }
+  
+  .total-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 10px 50px;
+    margin: 0 5px 0 5px;
+    gap: 10px;
+    background-color: #101318;
+    min-height: 50px;
+  }
+
+  .gray-text {
+    opacity: 50%;
+  }
