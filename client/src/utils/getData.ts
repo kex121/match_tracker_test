@@ -1,5 +1,6 @@
-import type Match from "@types/Matches.types";
 import axios, { type AxiosResponse } from "axios";
+
+import type Match from "types/Matches.types";
 
 const getData = async (): Promise<Match[]> => {
     try {
